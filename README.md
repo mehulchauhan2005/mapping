@@ -19,25 +19,28 @@
 - Silicon
     - Fab
       - Intel
-      
-- Photonnic 
+      - Samsung
+  - Photonnic 
 
 ## NETWORKING
-**OSI Layers**
+1. **OSI Layers**
+   - Physical, Data Link, Network, Transport, Session, Presentation and Application
 
-**LOAD BALANCE**
-- L7
-- L4
+2. **LOAD BALANCER**
+- Application Load Balancer
+- Network Load Balancer
+- Classic Load Balancer(Rarely Used)
 
-**Proxy**
+3. **Proxy**
  It provides a gateway between users and the internet
 
-**Reverse Proxy**
+4. **Reverse Proxy**
+   - behind the firewall in a private network and directs client requests to the appropriate backend server
 
-**Network Address Translation**
+5. **Network Address Translation**
+   - map multiple private addresses inside a local network to a public IP address
 
-
-**Routing**
+6. **Routing**
 -Route 53
    - DNS
    - TCP&UDP
@@ -47,8 +50,25 @@
         - AVS
         - VPP (Vector Packet Processing)
 
+7. **Switch**
+   - OVS Switch
+  
+8. **CNI**
+   - Loopback plugin
+   - Bridge plugin
+   - PTP plugin
+   - MACvlan plugin
+   - IPvlan plugin
+   - 3rd party plugin
+
+9. **CNDP**
+    - Accelerates Packet Processing
+
+10. **DPDK**
+11. **SR-IOV**
+
 ## Storage
-   **CEPH**
+1. **CEPH**
    **RAID**
    **DATA CENTRE**(Racks, Server, Switches)
          - Hyperscaling
