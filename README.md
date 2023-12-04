@@ -69,9 +69,24 @@
 
 ## Storage
 1. **CEPH**
-   **RAID**
-   **DATA CENTRE**(Racks, Server, Switches)
+   - provides object storage, block storage, and file storage
+     
+2. **RAID**
+   - manage hard disk drives in a storage array
+     
+3. **DATA CENTRE**(Racks, Server, Switches)
          - Hyperscaling
+         - HCI
+         - Private
+         - Public
+         - YOTTA
+4. **Block**
+   - controls data storage and storage devices
+   - EBS
+5. **Object**
+   - handle large amounts of unstructured data
+   - S3
+     
 
 
 
